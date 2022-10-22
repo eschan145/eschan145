@@ -18,6 +18,8 @@ I am interested in GUI and game development. I'm creating my own GUI toolkit for
 
 Contact me here:
 
-|Email|`esamuelchan@gmail.com`|
+|||
 |-|-|
 |Discord (most active spot)|`EthanC145#8543`|
+|Email|`esamuelchan@gmail.com`|
+|StackExchange|[`Ethan Chan`](https://stackoverflow.com/users/19573533/ethan-chan)
