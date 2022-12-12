@@ -1,11 +1,11 @@
 ![GitHub - User Stats](https://github-readme-stats.vercel.app/api?username=eschan145&theme=radical&show_icons=true)
 <!--![GitHub - Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=eschan145&theme=radical&show_icons=true)-->
 
-Semi-professional programmer. Fluent in Python and a bit of C++ and C#. Currently I'm taking Algebra II, in 7th Grade.
+Semi-professional programmer. Fluent in Python and a bit of C++ and C#. Currently I'm taking Algebra II, in 7th Grade (I'm in a private school).
 
 I first started coding in 4th Grade, learning Python from the book _Python for Kids_ by Jason R. Briggs. I advanced quickly, creating a 300-line calculator and moved to creating GUIs with `tkinter` and finding game libraries like Pygame. After using Pygame for a few months, I found out that it didn't have much functionality and good documentation. It was also slow. So, on my reserach, I discovered Pyglet and Arcade.
 
-I am usually pretty busy with school, but here are some projects that I contribute and work with:
+I am usually pretty busy with school, but here are some projects that I contribute and work with::
 
 1. [`pyglet`](https://pyglet.org/)
 
@@ -17,7 +17,7 @@ I am usually pretty busy with school, but here are some projects that I contribu
    
    Arcade is an easy-to-learn Python library for creating 2D video games. It is ideal for people learning to program, or developers that want to code a 2D game without learning a complex framework.
       
-I am interested in GUI and game development. I'm creating my own GUI toolkit for `pyglet` and `arcade` at https://github.com/eschan145/futura. Contributions are welcome.
+I am interested in GUI and game development. Feel free to ask me for help on a project; e.g. GUI for a game, graphics, etc. I usually don't charge anything.
 
 Contact me here:
 
