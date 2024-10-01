@@ -7,4 +7,5 @@
 ## Contact information
 
 **Discord**: eschan145
+
 **Email**: [esamuelchan@gmail.com](esamuelchan@gmail.com)
