@@ -1,2 +1,2 @@
-![GitHub - User Stats](https://github-readme-stats.vercel.app/api?username=eschan145&theme=radical&show_icons=true)
-<!--![GitHub - Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=eschan145&theme=radical&show_icons=true)-->
+![Ethan's GitHub stats](https://github-readme-stats.vercel.app/api?username=eschan145&show_icons=true&theme=responsive)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=eschan145&repo=SpaceShooter&show_query=true)](https://github.com/eschan145/SpaceShooter)
