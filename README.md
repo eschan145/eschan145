@@ -22,3 +22,5 @@ SO: eschan145
 📞 **Phone**: Dial your local police station and ask for Ethan.
 
 📧 **Email**: I'm avaliable with [esamuelchan@gmail.com](esamuelchan@gmail.com) or [ethan.samuel.chan@gmail.com](ethan.samuel.chan@gmail.com)
+
+![image](https://github.com/user-attachments/assets/454761a9-462b-4607-bcf5-aaa184e26b31)
