@@ -1,6 +1,6 @@
 ![Ethan's GitHub stats](https://github-readme-stats.vercel.app/api?username=eschan145&show_icons=true&theme=responsive)
 
-(There are at least 350 commits untracked in private respositories)
+(There are at least four hundred commits untracked in private respositories)
 
 ![SpaceShooter](https://api.githubtrends.io/user/svg/eschan145/repos?time_range=one_year&include_private=True&group=other&loc_metric=changed&theme=classic)
 
@@ -8,11 +8,11 @@
 
 * I'm 14.
 * I've been programming for five years.
-* I can speak Python, C++, JavaScript, Java, and English.
-* I attend Redmond High School in Washington State.
+* I can speak Python, C/C++, JavaScript, Java, and English.
+* I attend Redmond High School as a freshman in Washington State.
 * ABRSM Grade 7+ piano 🎹.
 * I swim 🏊‍♂️.
-* I study human anatomy and physiology 🫀.
+* I'm study human anatomy and physiology, specifically cardiology 🫀.
 * I make 3D models using Blender 🍩.
 * I Photoshop and shrink peoples' heads 🥟.
 * (and more)
