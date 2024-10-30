@@ -12,7 +12,7 @@
 * I attend Redmond High School as a freshman in Washington State.
 * ABRSM Grade 7+ piano 🎹.
 * I swim 🏊‍♂️.
-* I'm study human anatomy and physiology, specifically cardiology 🫀.
+* I'm studying human anatomy and physiology, specifically cardiology 🫀.
 * I make 3D models using Blender 🍩.
 * I Photoshop and shrink peoples' heads 🥟.
 * (and more)
