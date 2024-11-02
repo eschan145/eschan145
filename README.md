@@ -1,10 +1,12 @@
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=eschan145&label=Profile%20views&color=0e75b6&style=flat" alt="eschan145" /> </p>
+
+[![My Skills](https://skillicons.dev/icons?i=cpp,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light&perline=5)](https://skillicons.dev)
+
 ![Ethan's GitHub stats](https://github-readme-stats.vercel.app/api?username=eschan145&show_icons=true&theme=responsive)
 
 (There are at least four hundred commits untracked in private respositories)
 
 ![SpaceShooter](https://api.githubtrends.io/user/svg/eschan145/repos?time_range=one_year&include_private=True&group=other&loc_metric=changed&theme=classic)
-
-[![My Skills](https://skillicons.dev/icons?i=cpp,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light&perline=5)](https://skillicons.dev)
 
 ## About Me
 
