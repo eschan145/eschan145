@@ -4,6 +4,8 @@
 
 ![SpaceShooter](https://api.githubtrends.io/user/svg/eschan145/repos?time_range=one_year&include_private=True&group=other&loc_metric=changed&theme=classic)
 
+[![My Skills](https://skillicons.dev/icons?i=cpp,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light&perline=5)](https://skillicons.dev)
+
 ## About Me
 
 * I'm 14.
