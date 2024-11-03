@@ -12,7 +12,7 @@
 
 * I'm 14.
 * I've been programming for five years.
-* I can speak Python, C/C++, JavaScript, Java, and English.
+* I program in several languages, primarily C++. That would include Python, C, Java, and definitely not JavaScript, which can go right to hell.
 * I attend Redmond High School as a freshman in Washington State.
 * ABRSM Grade 7+ piano 🎹.
 * I swim 🏊‍♂️.
