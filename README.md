@@ -40,9 +40,9 @@ There are several ways to contact me.
 
 ![image](https://github.com/user-attachments/assets/0093064e-983a-4fb2-b7b8-79ce466f7c80) **SO**: eschan145
 
-![image](https://github.com/user-attachments/assets/7e36cf58-2076-48a4-8013-4bccb44ba00c) **Discord**: eschan145, eschan145.alt, eschan145.alt2. Although it's unlikely I'll respond to friend requests.
+![image](https://github.com/user-attachments/assets/7e36cf58-2076-48a4-8013-4bccb44ba00c) **Discord**: eschan145, eschan145.alt, eschan145.alt2.
 
-📞 **Phone**: Dial your local police station and ask for Ethan. (to prevent spam)
+📞 **Phone**: Dial your local police station and ask for Ethan. (I've been spammed enough times)
 
 📧 **Email**: I'm avaliable with [esamuelchan@gmail.com](esamuelchan@gmail.com) or [ethan.samuel.chan@gmail.com](ethan.samuel.chan@gmail.com)
 
