@@ -3,7 +3,12 @@
 ![GitHub Metrics](github-metrics.svg)
 
 ## My Skills
-[![My Skills](https://skillicons.dev/icons?i=cpp,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light&perline=5)](https://skillicons.dev)
+
+<p align="center">
+  <a href="https://github.com/eschan145">
+    <img src="https://skillicons.dev/icons?i=cpp,c,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light" />
+  </a>
+</p>
 
 <a href="https://github.com/eschan145">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=eschan145&show_icons=true&theme=responsive&rank_icon=percentile&include_all_commits=true" />
