@@ -5,7 +5,12 @@
 ## My Skills
 [![My Skills](https://skillicons.dev/icons?i=cpp,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light&perline=5)](https://skillicons.dev)
 
-![Ethan's GitHub stats](https://github-readme-stats.vercel.app/api?username=eschan145&show_icons=true&theme=responsive)
+<a href="https://github.com/eschan145">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=eschan145&show_icons=true&theme=responsive&rank_icon=percentile&include_all_commits=true" />
+</a>
+<a href="https://github.com/eschan145">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eschan145" />
+</a>
 
 (There are at least four hundred commits untracked in private respositories)
 
