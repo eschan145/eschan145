@@ -31,7 +31,6 @@
 * I swim 🏊‍♂️.
 * I'm studying human anatomy and physiology, specifically cardiology 🫀.
 * I make 3D models using Blender 🍩.
-* I Photoshop and shrink peoples' heads 🥟.
 * (and more)
 
 > Let me tell you something, folks, and this is big. Nobody—and I mean nobody—programs like I do. I've been programming for five years. Five years, and believe me, I know more about Python, C++, JavaScript, Java than most people have ever dreamed of. It's not just programming though, folks, I speak them. I speak those languages, just like I speak English, and let me tell you, I do it tremendously better than anyone else.
