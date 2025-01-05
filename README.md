@@ -14,7 +14,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=eschan145&show_icons=true&theme=responsive&rank_icon=percentile&include_all_commits=true" />
 </a>
 <a href="https://github.com/eschan145">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eschan145&langs_count=4&custom_title=Languages" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eschan145&langs_count=4&custom_title=Languages&exclude_repo=depraylib,depbox2d,depchipmunk" />
 </a>
 
 (There are at least four hundred commits untracked in private respositories)
