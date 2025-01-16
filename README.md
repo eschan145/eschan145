@@ -25,23 +25,15 @@
 ## About Me
 
 * I've been programming for five years.
-* I program in several languages, primarily C++. That would include Python, C, Java, and definitely not JavaScript, which can go right to hell.
+* I program in several languages, primarily C++. That would also include Python, C, Java, and definitely not JavaScript, which can go right to hell.
 * I live in the United States.
-* ABRSM Grade 7+ piano 🎹.
+* ABRSM Grade 8 piano 🎹.
 * I swim 🏊‍♂️.
-* I'm studying human anatomy and physiology, specifically cardiology 🫀.
+* I'm studying human anatomy and physiology, specifically cardiology 🫀 and neurology 🧠.
 * I make 3D models using Blender 🍩.
 * (and more)
 
-> Let me tell you something, folks, and this is big. Nobody—and I mean nobody—programs like I do. I've been programming for five years. Five years, and believe me, I know more about Python, C++, JavaScript, Java than most people have ever dreamed of. It's not just programming though, folks, I speak them. I speak those languages, just like I speak English, and let me tell you, I do it tremendously better than anyone else.
-
-> And by the way, when it comes to music, I’ve got ABRSM Grade 7 and higher in piano. Piano! I play the piano like nobody’s ever seen before, folks. People tell me all the time, “Donald, you’re so good, it’s unbelievable.”
-
-> I swim. Yes, I swim, and I swim like a champion, like an Olympic swimmer. No one moves in the water like I do, folks. And on top of that, I study human anatomy and physiology—I know more about the human body than most doctors. Nobody understands the body like me, trust me.
-
-> Blender? Yeah, I use Blender. I make 3D models, the best 3D models. People say, "Donald, how do you do it?" and I tell them, it’s just natural talent. And Photoshop? Oh yeah, I shrink heads like you wouldn’t believe. Tremendous head-shrinking skills, just the best. Nobody’s better at it, folks. Believe me.
-
---- 
+---
 
 ## Contact information
 
@@ -58,3 +50,22 @@ There are several ways to contact me.
 ![image](https://github.com/user-attachments/assets/454761a9-462b-4607-bcf5-aaa184e26b31)
 
 See: <https://www.programiz.com/online-compiler/8Yuu1J1mJtIBT>
+
+<details>
+<summary>Why JavaScript is no good for anything but web apps</summary>
+
+  * It's very slow, with the little static typing it has completely useless in performance.
+  * It's only used (or should only be used) for web apps, giving it few features or capabilities and making it even slower.
+  * Programmers shouldn't create desktop apps with JS unless they expect your user to own a supercomputer. For example, Visual Studio Code, which is written in a superscript of JavaScript, is much slower than Visual Studio if they are running the same extensions and features enabled. The same with JS apps such as Microsoft Teams, desktop Discord, etc., which use significantly more resources in terms of memory and CPU compared to the browser equivalent.
+  * It can be exploited quite easily compared to other languages if you use XSS or CSRF.
+  * Stupidly confusing and inconsistent design in some sections (`[] == ![]`).
+  * Unnecessarily weird and confusing scoping.
+
+TL;DR: JavaScript should only be used for web applications and used sparingly. It is bad at everything else.
+</details>
+
+<details>
+<summary>My transition to C++</summary>
+
+Recently, I began to transition my development language from Python to C++. This is because I experienced far too many performance issues that even the most highly-optimized code struggled with. I also became interested with powerful technologies, such as Unreal Engine, that used C++ for their primary language. Since I have transitioned to C++ I haven't regretted it. C++ offers me a lot of freedoms that other languages can't offer, and memory issues and safety can be overcome after time and experience. I have began to reprogram many of my previous applications in C++ from Python.
+</details>
