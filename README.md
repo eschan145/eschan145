@@ -61,7 +61,7 @@ See: <https://www.programiz.com/online-compiler/8Yuu1J1mJtIBT>
   * Stupidly confusing and inconsistent design in some sections (`[] == ![]`).
   * Unnecessarily weird and confusing scoping.
 
-TL;DR: JavaScript should only be used for web applications and used sparingly. It is bad at everything else.
+TL;DR: JavaScript should only be used for web applications and used sparingly. It is bad at just about everything else.
 </details>
 
 <details>
