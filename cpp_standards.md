@@ -15,14 +15,15 @@ Guidelines:
 * All conditional checks within parenthesis except booleans
 * If conditionals are only a single line, they can be written without braces
 * Lines wrapped to 80 characters
+* Explicit type conversion (e.g. using `static_cast`)
 
 Naming:
 
-| Element          | Convention      |
-| ---------------- | --------------- |
-| Variables        | `snake_case`    |
-| Functions        | `snake_case`    |
-| Filenames        | `snake_case`    |
-| Classes/structs  | `PascalCase`    |
-| Enum names       | `PascalCase`    |
-| Macros/constants | `CONSTANT_CASE` |
+| Element               | Convention      |
+| --------------------- | --------------- |
+| Variables             | `snake_case`    |
+| Functions             | `snake_case`    |
+| Filenames             | `snake_case`    |
+| Classes/structs       | `PascalCase`    |
+| Enum names/namespaces | `PascalCase`    |
+| Macros/constants      | `CONSTANT_CASE` |
