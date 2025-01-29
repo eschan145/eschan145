@@ -56,9 +56,9 @@ See: <https://www.programiz.com/online-compiler/8Yuu1J1mJtIBT>
 
   * It's very slow, with the little static typing it has completely useless in performance.
   * It's only used (or should only be used) for web apps, giving it few features or capabilities and making it even slower.
-  * Programmers shouldn't create desktop apps with JS unless they expect your user to own a supercomputer. For example, Visual Studio Code, which is written in a superscript of JavaScript, is much slower than Visual Studio if they are running the same extensions and features enabled. The same with JS apps such as Microsoft Teams, desktop Discord, etc., which use significantly more resources in terms of memory and CPU compared to the browser equivalent.
+  * Programmers shouldn't create desktop apps with JS unless they expect your user to own a supercomputer. For example, Visual Studio Code, which is written in a superscript of JavaScript, is much slower than Visual Studio if they are running the same extensions and features enabled. The same with JS apps with Electron such as Microsoft Teams, desktop Discord, etc., which use significantly more resources in terms of memory and CPU compared to the browser equivalent.
   * It can be exploited quite easily compared to other languages if you use XSS or CSRF.
-  * Stupidly confusing and inconsistent design in some sections (`[] == ![]`).
+  * Shit design in some sections (`[] == ![]`).
   * Unnecessarily weird and confusing scoping.
 
 TL;DR: JavaScript should only be used for web applications and used sparingly. It is bad at just about everything else.
