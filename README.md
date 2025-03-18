@@ -2,6 +2,12 @@
 
 ![GitHub Metrics](github-metrics.svg)
 
+## Code of the month:
+
+```python
+>>> eval((lambda:0).__code__.replace(co_consts=()))
+```
+
 ## My Skills
 
 <p align="center">
@@ -24,14 +30,7 @@
 
 ## About Me
 
-* I've been programming for five years.
 * I program in several languages, primarily C++. That would also include Python, C, Java, and definitely not JavaScript, which can go right to hell.
-* I live in the United States.
-* ABRSM Grade 8 piano 🎹.
-* I swim 🏊‍♂️.
-* I'm studying human anatomy and physiology, specifically cardiology 🫀 and neurology 🧠.
-* I make 3D models using Blender 🍩.
-* (and more)
 
 ---
 
