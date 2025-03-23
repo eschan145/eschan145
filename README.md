@@ -42,29 +42,6 @@ There are several ways to contact me.
 
 ![image](https://github.com/user-attachments/assets/7e36cf58-2076-48a4-8013-4bccb44ba00c) **Discord**: eschan145, eschan145.alt, eschan145.alt2.
 
-📞 **Phone**: Dial your local police station and ask for Ethan. (I've been spammed enough times)
-
 📧 **Email**: I'm avaliable with [esamuelchan@gmail.com](esamuelchan@gmail.com) or [ethan.samuel.chan@gmail.com](ethan.samuel.chan@gmail.com)
 
 ![image](https://github.com/user-attachments/assets/454761a9-462b-4607-bcf5-aaa184e26b31)
-
-See: <https://www.programiz.com/online-compiler/8Yuu1J1mJtIBT>
-
-<details>
-<summary>Why JavaScript is no good for anything but web apps</summary>
-
-  * It's very slow, with the little static typing it has completely useless in performance.
-  * It's only used (or should only be used) for web apps, giving it few features or capabilities and making it even slower.
-  * Programmers shouldn't create desktop apps with JS unless they expect your user to own a supercomputer. For example, Visual Studio Code (Electron JS), which is written in a superscript of JavaScript, is much slower than Visual Studio (C# + C++) if they are running the same extensions and features enabled. The same with JS apps with Electron such as Microsoft Teams, desktop Discord, etc., which use significantly more resources in terms of memory and CPU compared to the browser equivalent.
-  * It can be exploited quite easily compared to other languages if you use XSS or CSRF.
-  * Shit design and type coercions (`[] == ![]`).
-  * Unnecessarily weird and confusing scoping.
-
-TL;DR: JavaScript should only be used for web applications and used sparingly. It is bad at just about everything else.
-</details>
-
-<details>
-<summary>My transition to C++</summary>
-
-Recently, I began to transition my development language from Python to C++. This is because I experienced far too many performance issues that even the most highly-optimized code struggled with. I also became interested with powerful technologies, such as Unreal Engine, that used C++ for their primary language. Since I have transitioned to C++ I haven't regretted it. C++ offers me a lot of freedoms that other languages can't offer, and memory issues and safety can be overcome after time and experience. I have began to reprogram many of my previous applications in C++ from Python.
-</details>
