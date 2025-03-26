@@ -1,38 +1,36 @@
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=eschan145&label=Profile%20views&color=0e75b6&style=flat" alt="eschan145" /> </p>
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=eschan145&label=Profile%20views&color=0e75b6&style=flat" alt="eschan145"/>
+</p>
 
-![GitHub Metrics](github-metrics.svg)
+<h2 align="center">Hi 👋, I'm Ethan</h2>
+
+![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg)
+![GitHub Metrics](metrics.plugin.languages.svg)
 
 ## Code of the month:
 
-```python
->>> eval((lambda:0).__code__.replace(co_consts=()))
-```
-
-## My Skills
-
-<p align="center">
-  <a href="https://github.com/eschan145">
-    <img src="https://skillicons.dev/icons?i=cpp,c,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light" />
-  </a>
-</p>
-
-<a href="https://github.com/eschan145">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=eschan145&show_icons=true&theme=responsive&rank_icon=percentile&include_all_commits=true" />
-</a>
-<a href="https://github.com/eschan145">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eschan145&langs_count=4&custom_title=Languages&exclude_repo=depraylib,depbox2d,depchipmunk,PhysX" />
-</a>
-
-(There are at least four hundred commits untracked in private respositories)
-
-![SpaceShooter](https://api.githubtrends.io/user/svg/eschan145/repos?time_range=one_year&include_private=True&group=other&loc_metric=changed&theme=classic)
-
+> ### C++
+> ```cpp
+> #include __FILE__
+> ```
 
 ## About Me
 
-* I program in several languages, primarily C++. That would also include Python, C, Java, and definitely not JavaScript, which can go right to hell.
+I program in several languages. That would also include Python, C, Java, and definitely not JavaScript, which can go right to hell.
 
----
+🛠️ Tools that I use:
+
+<p align="center">
+  <a href="https://github.com/eschan145">
+    <img src="https://skillicons.dev/icons?i=cpp,c,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light"/>
+  </a>
+</p>
+
+## Some projects I'm working on
+
+![GitHub Metrics](metrics.plugin.repositories.svg)
+
+You may also find me contributing to various open-source projects.
 
 ## Contact information
 
