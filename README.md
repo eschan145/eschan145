@@ -4,8 +4,10 @@
 
 <h2 align="center">Hi 👋, I'm Ethan</h2>
 
-![GitHub Metrics](metrics.plugin.languages.svg)
-![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg)
+<p align="left">
+  <img src="metrics.plugin.languages.svg" height=430>
+  <img src="metrics.plugin.isocalendar.fullyear.svg" height=300)
+</p>
 
 ## Code of the month:
 
