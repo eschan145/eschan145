@@ -24,7 +24,7 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           base: ""
           plugin_repositories: yes
-          plugin_repositories_featured: eschan145/astro
+          plugin_repositories_featured: eschan145/astro,eschan145/stl
 
       - uses: lowlighter/metrics@latest
         with:
