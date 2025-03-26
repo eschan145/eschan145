@@ -5,8 +5,8 @@
 <h2 align="center">Hi 👋, I'm Ethan</h2>
 
 <p align="left">
-  <img src="metrics.plugin.languages.svg" height=430>
-  <img src="metrics.plugin.isocalendar.fullyear.svg" height=300)
+  <img src="metrics.plugin.languages.svg" height=420>
+  <img src="metrics.plugin.isocalendar.fullyear.svg" height=380)
 </p>
 
 ## Code of the month:
