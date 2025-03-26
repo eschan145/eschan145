@@ -4,8 +4,8 @@
 
 <h2 align="center">Hi 👋, I'm Ethan</h2>
 
-![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg)
 ![GitHub Metrics](metrics.plugin.languages.svg)
+![GitHub Metrics](metrics.plugin.isocalendar.fullyear.svg)
 
 ## Code of the month:
 
