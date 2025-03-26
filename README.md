@@ -6,7 +6,7 @@
 
 <p align="left">
   <img src="metrics.plugin.languages.svg" height=420>
-  <img src="metrics.plugin.isocalendar.fullyear.svg" height=380)
+  <img src="metrics.plugin.isocalendar.fullyear.svg" height=280)
 </p>
 
 ## Code of the month:
