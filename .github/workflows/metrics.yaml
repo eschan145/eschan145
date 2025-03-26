@@ -18,11 +18,10 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
 
-
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.repositories.svg
           token: ${{ secrets.GH_PAT }}
           base: ""
           plugin_repositories: yes
-          plugin_repositories_featured: eschan145/stl
+          plugin_repositories_featured: eschan145/astro
