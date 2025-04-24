@@ -13,7 +13,11 @@
 
 > ### C++
 > ```cpp
-> #include __FILE__
+> class Object {
+>     Object() {
+>         delete this;
+>     }
+> };
 > ```
 
 ## About Me
