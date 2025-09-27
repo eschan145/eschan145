@@ -13,11 +13,9 @@
 
 > ### C++
 > ```cpp
-> class Object {
->     Object() {
->         delete this;
->     }
-> };
+> int main() {
+>     [[assume(false)]];
+> }
 > ```
 
 ## About Me
