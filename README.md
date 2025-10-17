@@ -9,36 +9,15 @@
   <img src="metrics.plugin.isocalendar.fullyear.svg" height=280)
 </p>
 
-## Code of the month:
-
-> ### C++
-> ```cpp
-> int main() {
->     [[assume(false)]];
-> }
-> ```
-
-## About Me
-
-I program in several languages. That would also include Python, C, Java, and definitely not JavaScript, which can go right to hell.
-
-🛠️ Tools that I use:
-
 <p align="center">
   <a href="https://github.com/eschan145">
     <img src="https://skillicons.dev/icons?i=cpp,c,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light"/>
   </a>
 </p>
 
-## Some projects I'm working on
-
 ![GitHub Metrics](metrics.plugin.repositories.svg)
 
-You may also find me contributing to various open-source projects.
-
 ## Contact information
-
-There are several ways to contact me.
 
 ![image](https://github.com/user-attachments/assets/0093064e-983a-4fb2-b7b8-79ce466f7c80) **SO**: eschan145
 
