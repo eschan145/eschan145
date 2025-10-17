@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/eschan145">
-    <img src="https://skillicons.dev/icons?i=cpp,c,python,unreal,notion,blender,windows,latex,ps,github,discord&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=cpp,c,python,unreal,notion,blender,visualstudio,windows,latex,ps,github,discord&theme=light"/>
   </a>
 </p>
 
