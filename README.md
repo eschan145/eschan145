@@ -11,7 +11,7 @@
   </a>
 </p>
 
-[Visit my website](eschan145.github.io)
+[Visit my website](https://eschan145.github.io/)
 
 ![GitHub Metrics](metrics.plugin.repositories.svg)
 
