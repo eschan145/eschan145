@@ -1,4 +1,4 @@
-## Hi, I'm Ethan 👋
+<p align="center"><h2>Hi, I'm Ethan 👋</h2></p>
 
 
   <table align="center"><tr><td><a href="https://ethanchan.tech">Visit my website</a></td></tr></table>
