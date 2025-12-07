@@ -24,4 +24,7 @@
 
 ### Contact me
 
-Contact me using the contact form on my [website](https://ethanchan.tech/contact).
+You can contact me with:
+
+* 🌐 [Website contact form (preferred)](https://ethanchan.tech/contact)
+* 📧 [Email](mailto:esamuelchan@gmail.com)
