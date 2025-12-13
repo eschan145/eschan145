@@ -1,4 +1,4 @@
-name: Generate Featured Star List Metrics
+name: Generate star list
 
 on:
   push:
@@ -8,26 +8,27 @@ on:
 
 jobs:
   featured_star_list:
-    name: Generate Featured Star List Languages
+    name: Generate starred list
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Featured star list languages
+      - name: Icons
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.starlists.languages.svg
+          filename: metrics.plugin.topics.icons.svg
           token: NOT_NEEDED
           base: ""
-          plugin_starlists: true
-          plugin_starlists_languages: true
-          plugin_starlists_limit_languages: 8
-          plugin_starlists_limit_repositories: 0
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+
 
       - name: Commit generated SVG
         run: |
+          - name: Commit generated SVG
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
             git add .
