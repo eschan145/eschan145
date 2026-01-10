@@ -1,87 +1,99 @@
-
 name: Metrics
 on:
-  # Schedule daily updates
   schedule: [{cron: "*/5 * * * *"}]
-  # (optional) Run workflow manually
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  push: {branches: ["main"]}
+
 jobs:
-  github-metrics:
+  topics:
     runs-on: ubuntu-latest
-    environment: 
-      name: production
-    permissions:
-      contents: write
     steps:
+      - uses: actions/checkout@v4
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.topics.icons.svg
           token: NOT_NEEDED
-          base: ""
           plugin_topics: yes
-          plugin_topics_limit: 0
           plugin_topics_mode: icons
-        
-      - uses: lowlighter/metrics@latest
+      - uses: actions/upload-artifact@v3
         with:
-          token: ${{ secrets.GH_PAT }}
+          name: topics-svg
+          path: metrics.plugin.topics.icons.svg
 
+  repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.repositories.svg
           token: ${{ secrets.GH_PAT }}
-          base: ""
           plugin_repositories: yes
           plugin_repositories_featured: eschan145/astro,eschan145/stl
-
-      - uses: lowlighter/metrics@latest
+      - uses: actions/upload-artifact@v3
         with:
-          filename: metrics.plugin.starlists.languages.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_starlists: yes
-          plugin_starlists_languages: yes
-          plugin_starlists_limit_languages: 8
-          plugin_starlists_limit_repositories: 0
-          plugin_starlists_only: Awesome
+          name: repositories-svg
+          path: metrics.plugin.repositories.svg
 
+  languages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.GH_PAT }}
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_skipped: eschan145/depraylib,eschan145/depbox2d,eschan145/depchipmunk,eschan145/PhysX,eschan145/bgfx,eschan145/bgfx.cmake,eschan145/colobot,eschan145/UnrealEngine
-          commits_authoring: Ethan Chan, eschan145, eschan145@users.noreply.github.com
-          plugin_languages_other: true
-          plugin_languages_details: yes
+      - uses: actions/upload-artifact@v3
+        with:
+          name: languages-svg
+          path: metrics.plugin.languages.svg
 
+  isocalendar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.GH_PAT }}
-          base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+      - uses: actions/upload-artifact@v3
+        with:
+          name: isocalendar-svg
+          path: metrics.plugin.isocalendar.fullyear.svg
 
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  merge_and_push:
+    needs: [topics, repositories, languages, isocalendar]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GH_PAT }}
-
-      - name: Git History Surgery
+      - uses: actions/download-artifact@v3
+        with:
+          name: topics-svg
+          path: ./metrics/
+      - uses: actions/download-artifact@v3
+        with:
+          name: repositories-svg
+          path: ./metrics/
+      - uses: actions/download-artifact@v3
+        with:
+          name: languages-svg
+          path: ./metrics/
+      - uses: actions/download-artifact@v3
+        with:
+          name: isocalendar-svg
+          path: ./metrics/
+      - name: Commit & Push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-      
-          git checkout --orphan temp-clean
           git add -A
-          git commit -m "INITIAL COMMIT, Copyright (c) 2026-2030 Ethan Chan"
-          git branch -D main
-          git branch -m main
-          git push -f origin main
+          git commit -m "Automated metrics update (parallel)"
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
