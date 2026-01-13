@@ -1,0 +1,71 @@
+name: Metrics
+on:
+  schedule: [{cron: "*/5 * * * *"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
+
+jobs:
+  topics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.icons.svg
+          token: NOT_NEEDED
+          plugin_topics: yes
+          plugin_topics_mode: icons
+
+  repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.repositories.svg
+          token: ${{ secrets.GH_PAT }}
+          plugin_repositories: yes
+          plugin_repositories_featured: eschan145/astro,eschan145/stl
+
+  languages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.GH_PAT }}
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_skipped: eschan145/depraylib,eschan145/depbox2d,eschan145/depchipmunk,eschan145/PhysX,eschan145/bgfx,eschan145/bgfx.cmake,eschan145/colobot,eschan145/UnrealEngine
+          commits_authoring: Ethan Chan, eschan145, eschan145@users.noreply.github.com
+          plugin_languages_other: true
+          plugin_languages_details: yes
+
+  isocalendar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.GH_PAT }}
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+  merge_and_push:
+    needs: [topics, repositories, languages, isocalendar]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform Git History Surgery and Squash Commits
+        run: |
+          git pull
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git reset --soft HEAD~4
+          git add .
+          git commit -m "Automated metrics update"
+          git push origin main --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
