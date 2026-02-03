@@ -19,13 +19,9 @@ jobs:
   repositories:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.repositories.svg
-          token: ${{ secrets.GH_PAT }}
-          plugin_repositories: yes
-          plugin_repositories_featured: eschan145/astro,eschan145/stl
+          token: ${{ secrets.METRICS_TOKEN }}
 
   languages:
     runs-on: ubuntu-latest
