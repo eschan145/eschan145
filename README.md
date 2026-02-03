@@ -3,17 +3,9 @@
 
   <table align="center"><tr><td><a href="https://ethanchan.tech">Visit my website</a></td></tr></table>
 
-<table align="center">
-  <tr>
-    <td>
-      <img src="https://github.com/eschan145/eschan145/blob/main/metrics.plugin.languages.svg" width="100%"/>
-    </td>
-    <td>
-      <img src="https://github.com/eschan145/eschan145/blob/main/metrics.plugin.isocalendar.fullyear.svg" width="100%"/><br/>
-      <img src="https://github.com/eschan145/eschan145/blob/main/metrics.plugin.repositories.svg" width="100%"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+      <img src="https://github.com/eschan145/eschan145/blob/main/metrics.plugin.languages.svg"/>
+    </p>
 
 ### Skills
 ---
