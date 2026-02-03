@@ -1,7 +1,8 @@
 <p align="center"><h2>Hi, I'm Ethan 👋</h2></p>
 
+C/C++ and Python
 
-  <table align="center"><tr><td><a href="https://ethanchan.tech">Visit my website</a></td></tr></table>
+<table align="center"><tr><td><a href="https://ethanchan.tech">Visit my website</a></td></tr></table>
 
 <p align="center">
       <img src="https://github.com/eschan145/eschan145/blob/main/metrics.plugin.languages.svg"/>
