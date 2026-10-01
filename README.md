@@ -19,5 +19,5 @@ C/C++ and Python
 
 You can contact me with:
 
-* 🌐 [Website contact form (preferred)](https://ethanchan.tech/contact)
+* 🌐 [Website contact form (preferred)](https://ethanchan.studio/contact)
 * 📧 [Email](mailto:esamuelchan@gmail.com)
